@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="14.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="14.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Contact_DetailView">
+      <Items>
+        <ControlDetailItem Id="MyButton" ControlTypeName="DevExpress.Web.ASPxButton" Caption="My Button" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="50.198412698412696">
+            <LayoutGroup Id="Person" Index="0" RelativeSize="47.826086956521742">
+              <LayoutGroup Id="Person_col1" RelativeSize="47.533632286995513">
+                <LayoutItem Id="FirstName" SizeConstraintsType="Default" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="LastName" SizeConstraintsType="Default" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="MiddleName" SizeConstraintsType="Default" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="47.533632286995513">
+                <LayoutItem Id="Birthday" SizeConstraintsType="Default" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="FullName" SizeConstraintsType="Default" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="Email" SizeConstraintsType="Default" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Party" Index="1" RelativeSize="52.173913043478258">
+              <LayoutGroup Id="Autoa17455da-419d-4fa7-a4fb-f4c4421d7684" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="22.727272727272727" IsNewNode="True">
+                <LayoutItem Id="MyButton" ViewItem="MyButton" SizeConstraintsType="Default" Index="0" RelativeSize="50" IsNewNode="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" ViewItem="" SizeConstraintsType="Default" Index="1" RelativeSize="50" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="Photo" SizeConstraintsType="Default" Index="1" RelativeSize="18.181818181818183" />
+              <LayoutItem Id="Address1" SizeConstraintsType="Default" Index="2" RelativeSize="18.181818181818183" />
+              <LayoutItem Id="Address2" SizeConstraintsType="Default" Index="3" RelativeSize="18.181818181818183" />
+              <LayoutItem Id="DisplayName" SizeConstraintsType="Default" Index="4" RelativeSize="22.727272727272727" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="PhoneNumbers_Group" Direction="Vertical" RelativeSize="49.801587301587304">
+            <LayoutItem Id="PhoneNumbers" SizeConstraintsType="Default" RelativeSize="86.852589641434264" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
