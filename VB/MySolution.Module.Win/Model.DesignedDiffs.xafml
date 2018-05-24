@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="18.1.1.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="18.1.1.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Contact_DetailView">
+      <Items>
+        <ControlDetailItem Id="MyButton" ControlTypeName="System.Windows.Forms.Button" Caption="My Button" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" TextAlignMode="AlignWithChildren" RelativeSize="49.921259842519682">
+            <LayoutGroup Id="Person" Index="0" RelativeSize="38.485804416403788">
+              <LayoutGroup Id="Person_col1" RelativeSize="50">
+                <LayoutItem Id="FirstName" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="LastName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="MiddleName" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="50">
+                <LayoutItem Id="Birthday" RelativeSize="36.363636363636367" />
+                <LayoutItem Id="FullName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="Email" RelativeSize="36.363636363636367" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutItem Id="MyButton" ViewItem="MyButton" Index="1" RelativeSize="7.5709779179810726" IsNewNode="True" />
+            <LayoutGroup Id="Party" RelativeSize="53.943217665615144">
+              <LayoutItem Id="Photo" RelativeSize="54.3859649122807" />
+              <LayoutItem Id="Address1" RelativeSize="14.035087719298245" />
+              <LayoutItem Id="Address2" RelativeSize="14.035087719298245" />
+              <LayoutItem Id="DisplayName" RelativeSize="17.543859649122808" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="PhoneNumbers_Group" TextAlignMode="AlignWithChildren" Direction="Vertical" RelativeSize="50.078740157480318">
+            <LayoutItem Id="PhoneNumbers" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
