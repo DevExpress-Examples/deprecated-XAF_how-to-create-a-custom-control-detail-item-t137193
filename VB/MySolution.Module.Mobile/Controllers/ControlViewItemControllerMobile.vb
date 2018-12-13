@@ -12,11 +12,7 @@ Namespace MySolution.Module.Mobile.Controllers
             MyBase.OnActivated()
             Dim item As ControlViewItem = TryCast(CType(View, DetailView).FindItem("MyButton"), ControlViewItem)
             If item IsNot Nothing Then
-                If item.Control IsNot Nothing Then
-                    item_ControlCreated(item, EventArgs.Empty)
-                Else
-                    AddHandler item.ControlCreated, AddressOf item_ControlCreated
-                End If
+                AddHandler item.ControlCreated, AddressOf item_ControlCreated
             End If
         End Sub
         Private Sub item_ControlCreated(ByVal sender As Object, ByVal e As EventArgs)
