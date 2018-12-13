@@ -12,12 +12,7 @@ namespace MySolution.Module.Web.Controllers {
             base.OnActivated();
             ControlViewItem item = ((DetailView)View).FindItem("MyButton") as ControlViewItem;
             if (item != null) {
-                if (item.Control != null) {
-                    item_ControlCreated(item, EventArgs.Empty);
-                }
-                else {
-                    item.ControlCreated += item_ControlCreated;
-                }
+                item.ControlCreated += item_ControlCreated;
             }
         }
         private void item_ControlCreated(object sender, EventArgs e) {
