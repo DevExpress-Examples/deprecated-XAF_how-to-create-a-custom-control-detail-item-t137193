@@ -4,10 +4,6 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MySolution.Module", "MySolution.Module\MySolution.Module.vbproj", "{5F15837D-D1E5-44DC-92F0-4F2EBE9C3F8D}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MySolution.Module.Mobile", "MySolution.Module.Mobile\MySolution.Module.Mobile.vbproj", "{1987C5BD-A157-4956-A0B1-8536AF0A65B5}"
-EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MySolution.Mobile", "MySolution.Mobile\MySolution.Mobile.vbproj", "{920ADD88-8181-492E-B860-89199E8C401E}"
-EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MySolution.Module.Web", "MySolution.Module.Web\MySolution.Module.Web.vbproj", "{0C729AAD-7626-4668-A7F1-35F7D240489D}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MySolution.Web", "MySolution.Web\MySolution.Web.vbproj", "{82A6DBC9-B1B4-44E4-9718-55DF930CD349}"
